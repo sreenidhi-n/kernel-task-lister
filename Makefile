@@ -1,4 +1,4 @@
-obj-m += OS_project.o
+obj-m += kernel_task_lister.o
 VERSION = $(shell uname -r)
 PWD = $(shell pwd)
 default:
