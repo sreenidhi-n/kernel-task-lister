@@ -41,7 +41,7 @@ void __exit taskExit(void) // __exit is a cleanup macro for once the module is d
 }
 
 module_init(taskInit);  //Module entry point macro
-module_exit(taskExit);  //mODULE exit macro
+module_exit(taskExit);  //Module exit macro
 //Licensing
 MODULE_VERSION("0.1");
 MODULE_DESCRIPTION("Test MOdule");
